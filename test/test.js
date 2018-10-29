@@ -45,7 +45,7 @@ describe('#numFormatter', function() {
     });
 
     it('should convert 9 digits', function() {
-        var result = numFormatter(12345678);
+        var result = numFormatter(123456789);
         expect(result).to.equal('123,456,789');
     });
 });
